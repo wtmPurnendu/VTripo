@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>VTripo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="icon" href="images/fav-icon.png" type="image/x-icon" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/webslidemenu.css" />
+<link rel="stylesheet" href="css/animate.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+<!-- header area start -->
+<header class="header_area">
+  <div class="container">
+    <div class="logo"> <a href="index.html"><img src="images/header-logo.png" alt="logo"></a> </div>
+    <div class="header_right">
+      <nav id="navigation1" class="navigation">
+        <div class="nav-header">
+          <div class="nav-toggle"></div>
+        </div>
+        <div class="nav-menus-wrapper">
+          <ul class="nav-menu nav-menu_inner align-to-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="active"> <a href="listing.html">Packages <span><i class="fa fa-angle-down"></i></span></a>
+              <ul class="nav-dropdown">
+                <li><a href="#">Package One</a></li>
+                <li><a href="#">Package Two</a></li>
+                <li><a href="#">Package Three</a></li>
+                <li><a href="#">Package Four</a></li>
+              </ul>
+            </li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <a href="get-a-quote.html" class="my_account visasnav">Visa and Book Flights</a>
+          </ul>
+        </div>
+      </nav>
+      <a href="contact-us.html" class="my_account visas">Contact Us</a> </div>
+  </div>
+</header>
+<!-- header area stop --> 
+
+<!------ banner area start -------->
+<div class="subbanner" style="background-image:url(images/inner-banner1.jpg);">
+  <div class="container">
+    <h1>packages</h1>
+    <nav class="breadcrumb"> <a class="breadcrumb-item" href="#">home</a> <span class="breadcrumb-item active">packages</span> </nav>
+  </div>
+</div>
+<!------ banner area stop --------> 
+
+<!--------- listing area start ---------->
+<section class="listing_area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3"> 
+        <!-----mobile start------>
+        <div id="main">
+          <div class="accordion" id="faq">
+            <div class="card">
+              <div class="card-header" id="faqhead1"> <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq1" aria-expanded="true" aria-controls="faq1">Filter</a> </div>
+              <div id="faq1" class="collapse" aria-labelledby="faqhead1" data-parent="#faq">
+                <div class="card-body">
+                  <div class="filter_box">
+                    <div class="search_box">
+                      <input type="text" class="form-control" placeholder="Search...">
+                      <button class="btn-search"><i class="zmdi zmdi-search"></i></button>
+                    </div>
+                    <div class="filter">
+                      <h3>Packages Type</h3>
+                      <ul>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check1">
+                            <label for="check1">Domestic</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check2">
+                            <label for="check2">International</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="checknew2">
+                            <label for="checknew2">Honeymoon</label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="filter">
+                      <h3>Destination</h3>
+                      <ul>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check3">
+                            <label for="check3">Kerala</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check4">
+                            <label for="check4">Rajasthan</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check5">
+                            <label for="check5">Goa</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check6">
+                            <label for="check6">Kashmir</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check7">
+                            <label for="check7">Kullu-Manali</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check8">
+                            <label for="check8">Delhi</label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="filter">
+                      <h3>Price</h3>
+                      <ul>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check9">
+                            <label for="check9">Below ₹5000</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check10">
+                            <label for="check10">₹5000 - ₹10,000.00</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check11">
+                            <label for="check11">₹10,000.00 - ₹20,000.00</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check12">
+                            <label for="check12">₹20,000.00 - ₹30,000.00</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check13">
+                            <label for="check13">₹30,000.00 - ₹40,000.00</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check14">
+                            <label for="check14">₹40,000.00 - ₹50,000.00</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check15">
+                            <label for="check15">Above ₹50,000.00</label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="filter">
+                      <h3>star</h3>
+                      <ul>
+                    
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check16">
+                            <label for="check16">3 Star</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check17">
+                            <label for="check17">4 Star</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check18">
+                            <label for="check18">5 Star</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check19">
+                            <label for="check19">Standard</label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="filter">
+                      <h3>Inclusions</h3>
+                      <ul>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check20">
+                            <label for="check20"><img src="images/car-icon.png" alt="#" />Cab</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="form-group">
+                            <input type="checkbox" id="check21">
+                            <label for="check21"><img src="images/cutlery-icon.png" alt="#" />Meal</label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-----mobile stop------>
+        
+        <div class="filter_box filterin">
+          <div class="search_box">
+            <input type="text" class="form-control" placeholder="Search...">
+            <button class="btn-search"><i class="zmdi zmdi-search"></i></button>
+          </div>
+          <div class="filter">
+            <h3>Packages</h3>
+            <ul>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check1">
+                  <label for="check1">Domestic</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check2">
+                  <label for="check2">International</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="checknew2">
+                  <label for="checknew2">Honeymoon</label>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="filter">
+            <h3>Destination</h3>
+            <ul>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check3">
+                  <label for="check3">Kerala</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check4">
+                  <label for="check4">Rajasthan</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check5">
+                  <label for="check5">Goa</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check6">
+                  <label for="check6">Kashmir</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check7">
+                  <label for="check7">Kullu-Manali</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check8">
+                  <label for="check8">Delhi</label>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="filter">
+            <h3>Price</h3>
+            <ul>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check9">
+                  <label for="check9">Below ₹5000</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check10">
+                  <label for="check10">₹5000 - ₹10,000.00</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check11">
+                  <label for="check11">₹10,000.00 - ₹20,000.00</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check12">
+                  <label for="check12">₹20,000.00 - ₹30,000.00</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check13">
+                  <label for="check13">₹30,000.00 - ₹40,000.00</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check14">
+                  <label for="check14">₹40,000.00 - ₹50,000.00</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check15">
+                  <label for="check15">Above ₹50,000.00</label>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="filter">
+            <h3>star</h3>
+            <ul>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check16">
+                  <label for="check16">3 Star</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check17">
+                  <label for="check17">4 Star</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check18">
+                  <label for="check18">5 Star</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check19">
+                  <label for="check19">Standard</label>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="filter">
+            <h3>Inclusions</h3>
+            <ul>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check20">
+                  <label for="check20"><img src="images/car-icon.png" alt="#" />Cab</label>
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <input type="checkbox" id="check21">
+                  <label for="check21"><img src="images/cutlery-icon.png" alt="#" />Meal</label>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-9">
+      <h4>packages</h4>
+        <div class="listing_box">
+          <div class="row row-7">
+            <div class="col-lg-9 col-md-9">
+              <div class="media"> <img src="images/listing1.jpg" alt="#" class="img_box">
+                <div class="media-body"> <a href="details.html" class="link">Amazing Thailand</a>
+                  <div class="box_one">
+                    <ul>
+                      <li class="day"><i class="far fa-clock"></i> 4 Nights / 5 Days</li>
+                      <li>Customizable</li>
+                    </ul>
+                  </div>
+                  <div class="box_two">
+                    <h3>Hotel included in Package :</h3>
+                    <ul>
+                    <li>
+                        <input type="radio" id="radio18" name="selector">
+                        <label for="radio18">2 Star</label>
+                        <div class="check"></div>
+                      </li>
+                      <li>
+                        <input type="radio" id="radio1" name="selector">
+                        <label for="radio1">3 Star</label>
+                        <div class="check"></div>
+                      </li>
+                      <li>
+                        <input type="radio" id="radio2" name="selector">
+                        <label for="radio2">4 Star</label>
+                        <div class="check"></div>
+                      </li>
+                      <li>
+                        <input type="radio" id="radio3" name="selector">
+                        <label for="radio3">5 Star</label>
+                        <div class="check"></div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="box_three">
+                    <ul>
+                      <li> Transportation :
+                        <label class="switch" for="checkbox1">
+                        <input type="checkbox" id="checkbox1" />
+                        <div class="slider round"></div>
+                        </label>
+                      </li>
+                      <li> Breakfast :
+                        <label class="switch" for="checkbox2">
+                        <input type="checkbox" id="checkbox2" />
+                        <div class="slider round"></div>
+                        </label>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                  <div class="box_four"> 
+                  
+                    <p><strong>Attractions :6</strong> Pattaya & Bangkok</p>
+                    <div class="tag">Sriracha Tiger Zoo</div>
+                    <div class="tag">Coral Island</div>
+                    <div class="tag">Alcazar Show</div>
+                  </div>
+                  <div class="box_five">
+                    <div class="d-flex justify-content-start">
+                      <div class="box_catagory"> <img src="images/key-icon.png" alt="#" title="" />
+                        <p>Accommodation</p>
+                      </div>
+                      <div class="box_catagory"> <img src="images/breakfast-icon.png" alt="#" title="" />
+                        <p>Breakfast</p>
+                      </div>
+                      <div class="box_catagory"> <img src="images/route-icon.png" alt="#" title="" />
+                        <p>Tours as per Itinerary</p>
+                      </div>
+                      <div class="box_catagory"> <img src="images/electric-car-icon.png" alt="#" title="" />
+                        <p>Sightseeing Vehicle</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="pacakge_price">
+                <div class="w-100">
+                  <div class="tag">10% off</div>
+                  <p>STARTING FROM</p>
+                  <h3><i class="fas fa-rupee-sign"></i> 19900 /-</h3>
+                  <p>Per Person on twin sharing</p>
+                  <a href="details.html" class="btn">VIEW DETAILS</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="listing_box">
+          <div class="row row-7">
+            <div class="col-lg-9 col-md-9">
+              <div class="media"> <img src="images/listing2.jpg" alt="#" class="img_box">
+                <div class="media-body"> <a href="details.html" class="link">South Wonders</a>
+                  <div class="box_one">
+                    <ul>
+                      <li class="day"><i class="far fa-clock"></i> 4 Nights / 5 Days</li>
+                      <li>Customizable</li>
+                    </ul>
+                  </div>
+                  <div class="box_two">
+                    <h3>Hotel included in Package :</h3>
+                    <ul>
+                    <li>
+                        <input type="radio" id="radio17" name="selector">
+                        <label for="radio17">2 Star</label>
+                        <div class="check"></div>
+                      </li>
+                      <li>
+                        <input type="radio" id="radio4" name="selector">
+                        <label for="radio4">3 Star</label>
+                        <div class="check"></div>
+                      </li>
+                      <li>
+                        <input type="radio" id="radio5" name="selector">
+                        <label for="radio5">4 Star</label>
+                        <div class="check"></div>
+                      </li>
+                      <li>
+                        <input type="radio" id="radio6" name="selector">
+                        <label for="radio6">5 Star</label>
+                        <div class="check"></div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="box_three">
+                    <ul>
+                      <li> Transportation :
+                        <label class="switch" for="checkbox5">
+                        <input type="checkbox" id="checkbox5" />
+                        <div class="slider round"></div>
+                        </label>
+                      </li>
+                      <li> Breakfast :
+                        <label class="switch" for="checkbox6">
+                        <input type="checkbox" id="checkbox6" />
+                        <div class="slider round"></div>
+                        </label>
+                      </li>
+                     
+                    </ul>
+                  </div>
+                  <div class="box_four"> 
+                 
+                    <p><strong>Attractions :6</strong> Pattaya & Bangkok</p>
+                    <div class="tag">Sriracha Tiger Zoo</div>
+                    <div class="tag">Coral Island</div>
+                    <div class="tag">Alcazar Show</div>
+                  </div>
+                  <div class="box_five">
+                    <div class="d-flex justify-content-start">
+                      <div class="box_catagory"> <img src="images/key-icon.png" alt="#" title="" />
+                        <p>Accommodation</p>
+                      </div>
+                      <div class="box_catagory"> <img src="images/breakfast-icon.png" alt="#" title="" />
+                        <p>Breakfast</p>
+                      </div>
+                      <div class="box_catagory"> <img src="images/route-icon.png" alt="#" title="" />
+                        <p>Tours as per Itinerary</p>
+                      </div>
+                      <div class="box_catagory"> <img src="images/electric-car-icon.png" alt="#" title="" />
+                        <p>Sightseeing Vehicle</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="pacakge_price">
+                <div class="w-100">
+                  <div class="tag">10% off</div>
+                  <p>STARTING FROM</p>
+                  <h3><i class="fas fa-rupee-sign"></i> 15900 /-</h3>
+                  <p>Per Person on twin sharing</p>
+                  <a href="details.html" class="btn">VIEW DETAILS</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="listing_box">
+          <div class="row row-7">
+            <div class="col-lg-9 col-md-9">
+              <div class="media"> <img src="images/listing3.jpg" alt="#" class="img_box">
+                <div class="media-body"> <a href="details.html" class="link">The Eastern Triangle</a>
+                  <div class="box_one">
+                    <ul>
+                      <li class="day"><i class="far fa-clock"></i> 4 Nights / 5 Days</li>
+                      <li>Customizable</li>
+                    </ul>
+                  </div>
+                  <div class="box_two">
+                    <h3>Hotel included in Package :</h3>
+                    <ul>
+                    <li>
+                        <input type="radio" id="radio16" name="selector">
+                        <label for="radio16">2 Star</label>
+                        <div class="check"></div>
+                      </li>
+                      <li>
+                        <input type="radio" id="radio7" name="selector">
+                        <label for="radio7">3 Star</label>
+                        <div class="check"></div>
+                      </li>
+                      <li>
+                        <input type="radio" id="radio8" name="selector">
+                        <label for="radio8">4 Star</label>
+                        <div class="check"></div>
+                      </li>
+                      <li>
+                        <input type="radio" id="radio9" name="selector">
+                        <label for="radio9">5 Star</label>
+                        <div class="check"></div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="box_three">
+                    <ul>
+                      <li> Transportation :
+                        <label class="switch" for="checkbox9">
+                        <input type="checkbox" id="checkbox9" />
+                        <div class="slider round"></div>
+                        </label>
+                      </li>
+                      <li> Breakfast :
+                        <label class="switch" for="checkbox10">
+                        <input type="checkbox" id="checkbox10" />
+                        <div class="slider round"></div>
+                        </label>
+                      </li>
+                     
+                    </ul>
+                  </div>
+                  <div class="box_four"> 
+                  
+                    <p><strong>Attractions :6</strong> Pattaya & Bangkok</p>
+                    <div class="tag">Sriracha Tiger Zoo</div>
+                    <div class="tag">Coral Island</div>
+                    <div class="tag">Alcazar Show</div>
+                  </div>
+                  <div class="box_five">
+                    <div class="d-flex justify-content-start">
+                      <div class="box_catagory"> <img src="images/key-icon.png" alt="#" title="" />
+                        <p>Accommodation</p>
+                      </div>
+                      <div class="box_catagory"> <img src="images/breakfast-icon.png" alt="#" title="" />
+                        <p>Breakfast</p>
+                      </div>
+                      <div class="box_catagory"> <img src="images/route-icon.png" alt="#" title="" />
+                        <p>Tours as per Itinerary</p>
+                      </div>
+                      <div class="box_catagory"> <img src="images/electric-car-icon.png" alt="#" title="" />
+                        <p>Sightseeing Vehicle</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="pacakge_price">
+                <div class="w-100">
+                  <div class="tag">10% off</div>
+                  <p>STARTING FROM</p>
+                  <h3><i class="fas fa-rupee-sign"></i> 18900 /-</h3>
+                  <p>Per Person on twin sharing</p>
+                  <a href="details.html" class="btn">VIEW DETAILS</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="listing_box">
+          <div class="row row-7">
+            <div class="col-lg-9 col-md-9">
+              <div class="media"> <img src="images/listing4.jpg" alt="#" class="img_box">
+                <div class="media-body"> <a href="details.html" class="link">Extrinsic Goaq89</a>
+                  <div class="box_one">
+                    <ul>
+                      <li class="day"><i class="far fa-clock"></i> 4 Nights / 5 Days</li>
+                      <li>Customizable</li>
+                    </ul>
+                  </div>
+                  <div class="box_two">
+                    <h3>Hotel included in Package :</h3>
+                    <ul>
+                    <li>
+                        <input type="radio" id="radio15" name="selector">
+                        <label for="radio15">2 Star</label>
+                        <div class="check"></div>
+                      </li>
+                      <li>
+                        <input type="radio" id="radio10" name="selector">
+                        <label for="radio10">3 Star</label>
+                        <div class="check"></div>
+                      </li>
+                      <li>
+                        <input type="radio" id="radio11" name="selector">
+                        <label for="radio11">4 Star</label>
+                        <div class="check"></div>
+                      </li>
+                      <li>
+                        <input type="radio" id="radio12" name="selector">
+                        <label for="radio12">5 Star</label>
+                        <div class="check"></div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="box_three">
+                    <ul>
+                      <li> Transportation :
+                        <label class="switch" for="checkbox13">
+                        <input type="checkbox" id="checkbox13" />
+                        <div class="slider round"></div>
+                        </label>
+                      </li>
+                      <li> Breakfast :
+                        <label class="switch" for="checkbox14">
+                        <input type="checkbox" id="checkbox14" />
+                        <div class="slider round"></div>
+                        </label>
+                      </li>
+                     
+                    </ul>
+                  </div>
+                  <div class="box_four"> 
+                 
+                    <p><strong>Attractions :6</strong> Pattaya & Bangkok</p>
+                    <div class="tag">Sriracha Tiger Zoo</div>
+                    <div class="tag">Coral Island</div>
+                    <div class="tag">Alcazar Show</div>
+                  </div>
+                  <div class="box_five">
+                    <div class="d-flex justify-content-start">
+                      <div class="box_catagory"> <img src="images/key-icon.png" alt="#" title="" />
+                        <p>Accommodation</p>
+                      </div>
+                      <div class="box_catagory"> <img src="images/breakfast-icon.png" alt="#" title="" />
+                        <p>Breakfast</p>
+                      </div>
+                      <div class="box_catagory"> <img src="images/route-icon.png" alt="#" title="" />
+                        <p>Tours as per Itinerary</p>
+                      </div>
+                      <div class="box_catagory"> <img src="images/electric-car-icon.png" alt="#" title="" />
+                        <p>Sightseeing Vehicle</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="pacakge_price">
+                <div class="w-100">
+                  <div class="tag">10% off</div>
+                  <p>STARTING FROM</p>
+                  <h3><i class="fas fa-rupee-sign"></i> 14900 /-</h3>
+                  <p>Per Person on twin sharing</p>
+                  <a href="details.html" class="btn">VIEW DETAILS</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="listing_box">
+          <div class="row row-7">
+            <div class="col-lg-9 col-md-9">
+              <div class="media"> <img src="images/listing5.jpg" alt="#" class="img_box">
+                <div class="media-body"> <a href="details.html" class="link">Amazing Thailand</a>
+                  <div class="box_one">
+                    <ul>
+                      <li class="day"><i class="far fa-clock"></i> 4 Nights / 5 Days</li>
+                      <li>Customizable</li>
+                    </ul>
+                  </div>
+                  <div class="box_two">
+                    <h3>Hotel included in Package :</h3>
+                    <ul>
+                    <li>
+                        <input type="radio" id="radio20" name="selector">
+                        <label for="radio20">2 Star</label>
+                        <div class="check"></div>
+                      </li>
+                      <li>
+                        <input type="radio" id="radio21" name="selector">
+                        <label for="radio21">3 Star</label>
+                        <div class="check"></div>
+                      </li>
+                      <li>
+                        <input type="radio" id="radio22" name="selector">
+                        <label for="radio22">4 Star</label>
+                        <div class="check"></div>
+                      </li>
+                      <li>
+                        <input type="radio" id="radio23" name="selector">
+                        <label for="radio23">5 Star</label>
+                        <div class="check"></div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="box_three">
+                    <ul>
+                      <li> Transportation :
+                        <label class="switch" for="checkbox17">
+                        <input type="checkbox" id="checkbox17" />
+                        <div class="slider round"></div>
+                        </label>
+                      </li>
+                      <li> Breakfast :
+                        <label class="switch" for="checkbox18">
+                        <input type="checkbox" id="checkbox18" />
+                        <div class="slider round"></div>
+                        </label>
+                      </li>
+                      <!-- <li>
+                                                Breakfast & Dinner :
+                                                <label class="switch" for="checkbox19">
+                                                    <input type="checkbox" id="checkbox19" />
+                                                    <div class="slider round"></div>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                Lunch & Dinner :
+                                                <label class="switch" for="checkbox20">
+                                                    <input type="checkbox" id="checkox20" />
+                                                    <div class="slider round"></div>
+                                                </label>
+                                            </li> -->
+                    </ul>
+                  </div>
+                  <div class="box_four"> 
+                    <!-- <p><strong>Meal :</strong> Breakfast. Breakfast & Dinner or  Breakfast, Lunch & Dinner</p> -->
+                    <p><strong>Attractions :6</strong> Pattaya & Bangkok</p>
+                    <div class="tag">Sriracha Tiger Zoo</div>
+                    <div class="tag">Coral Island</div>
+                    <div class="tag">Alcazar Show</div>
+                  </div>
+                  <div class="box_five">
+                    <div class="d-flex justify-content-start">
+                      <div class="box_catagory"> <img src="images/key-icon.png" alt="#" title="" />
+                        <p>Accommodation</p>
+                      </div>
+                      <div class="box_catagory"> <img src="images/breakfast-icon.png" alt="#" title="" />
+                        <p>Breakfast</p>
+                      </div>
+                      <div class="box_catagory"> <img src="images/route-icon.png" alt="#" title="" />
+                        <p>Tours as per Itinerary</p>
+                      </div>
+                      <div class="box_catagory"> <img src="images/electric-car-icon.png" alt="#" title="" />
+                        <p>Sightseeing Vehicle</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="pacakge_price">
+                <div class="w-100">
+                  <div class="tag">10% off</div>
+                  <p>STARTING FROM</p>
+                  <h3><i class="fas fa-rupee-sign"></i> 19900 /-</h3>
+                  <p>Per Person on twin sharing</p>
+                  <a href="details.html" class="btn">VIEW DETAILS</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--------- listing area stop ----------> 
+
+<!----------- footer area start ---------->
+<footer class="footer_area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-md-7">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-4">
+            <div class="footer footer_sape">
+              <div class="footer_logo"><img src="images/footer-logo.png" align="logo" title="" /></div>
+              <p class="copyright">Copyright © 2022 <a href="#" target="_blank">VTripo</a>. All rights reserved.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-4">
+            <div class="footer footer_sape">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="listing.html">Packages</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="terms-and-condition.html">Terms and Condition</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-4">
+            <div class="footer footer_sape">
+              <h3>Other Links</h3>
+              <ul>
+                <li><a href="#">Flights</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Buses</a></li>
+                <li><a href="#">Trains</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-5">
+        <div class="footer">
+          <h3>Contact Us</h3>
+          <div class="d-flex justify-content-between">
+            <div class="address_box">
+              <h4>Delhi :</h4>
+              <p>Office UG-23, Upper Ground Floor, Plot 10, Vishal Tower, Janakpuri, District Centre, Delhi-110058</p>
+            </div>
+            <div class="address_box">
+              <h4>Dubai :</h4>
+              <p>Office 606, Single Business Tower, Business Bay, Dubai, UAE email : <a href="mailto:info@bizdesn.com">info@bizdesn.com</a></p>
+            </div>
+          </div>
+          <div class="address_box w-50">
+            <h4>Kochi :</h4>
+            <p>#36/122, Namboori Madam Centre, Pathadipalam, Kalamessery, Kochi-682024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <ul class="footer_social_link">
+        <li><a href="#" target="_blank"><img src="images/facebook-icon.png" alt="facebook icon" title="" /></a></li>
+        <li><a href="#" target="_blank"><img src="images/twitter-icon.png" alt="twitter icon" title="" /></a></li>
+        <li><a href="#" target="_blank"><img src="images/instagram-icon.png" alt="instagram icon" title="" /></a></li>
+        <li><a href="#" target="_blank"><img src="images/youtube-icon.png" alt="youtube icon" title="" /></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<!----------- footer area stop ----------> 
+
+<a href="#" class="chat"><img src="images/chat.png" /></a> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script> 
+<script src="js/custom.js"></script> 
+<script src="js/wow.min.js"></script> 
+<script src="js/webslidemenu.js"></script> 
+<script src="js/swiper.min.js"></script> 
+<script src="js/swiper.js"></script> 
+<script>
+        new WOW().init();
+    </script>
+</body>
+</html>

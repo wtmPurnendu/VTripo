@@ -1,0 +1,1003 @@
+@media (min-width: 1260px) {
+  .container {
+    max-width: 1316px;
+  }
+}
+/* md */
+@media(max-width: 1199px) {
+ 
+  .menu ul li a{font-size: 14px;}
+  .menu ul li{margin-left: 12px;}
+  .header_area.fix .menu ul li{margin-left: 15px;}
+  .header_area.fix .menu ul li a{font-size: 14px;}
+  .clogo ul li:nth-child(2){top: -150px;left: -40px;}
+  .clogo ul li:nth-child(3){left: 40px;}
+  .clogo ul li:nth-child(4){top: -120px;right: 50px;}
+  .clogo ul li:nth-child(5){right: 55px;}
+  .innerbg{min-height: 410px;}
+  .about ul li .atxt{ max-width:350px;}
+  .header_area.fix.header_area .header_area_right{ margin-top:10px;}
+  .contin .pr-5{ padding-right:15px !important;}
+  .ltxt{max-width: 263px;}
+    .listing_box .media .img_box{width: 255px;height: 300px;}
+
+  /*--------- home css start -----------*/
+  .header_area .logo {
+    max-width: 110px;
+  }
+  .header_area .nav-menu > li > a {
+    height: auto;
+    padding: 27px 28px;
+    font-size: 15px;
+  }
+  .my_account {
+    top: 23px;
+  }
+  .banner_area .banner_contain h1 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .banner_area .banner_contain {
+    max-width: 100%;
+    padding-top: 155px;
+  }
+  .banner_area {
+    height: 570px;
+    margin-top: 60px;
+  }
+  .banner_area .banner_image {
+    max-width: 100%;
+    padding-top: 40px;
+  }
+  .banner_area .banner_contain p {
+    font-size: 22px;
+  }
+  .search_body {
+    max-width: 100%;
+    margin: -45px 0 0;
+  }
+  .selling_package_area {
+    padding: 25px 0px;
+    overflow: hidden;
+  }
+  .selling_package_area .heading_area h3, .kerala_package_area .heading_area h3, .india_packages .heading_area h3 {
+    font-size: 36px;
+  }
+  .selling_package_area .heading_area, .india_packages .heading_area {
+    padding: 10px 0px 10px 30px;
+    margin-bottom: 30px;
+  }
+  .kerala_package_area .heading_area{
+    padding: 10px 25px 10px 0;
+    margin-bottom: 30px;
+  }
+  .selling_package_box .img_box {
+    height: 330px;
+    margin-bottom: 15px;
+  }
+  .hot_selling_carousel .owl-item:nth-of-type(2n) .selling_package_box {
+    margin-top: 30px;
+  }
+  .kerala_package_area {
+    padding: 0px 0px;
+    position: relative;
+  }
+  .kerala_package_box .heading_text {
+    font-size: 20px;
+  }
+  .kerala_package_box .heading_text.text1 {
+    left: -52px;
+    bottom: 68px;
+  }
+  .kerala_package_box .heading_text.text2 {
+    left: -60px;
+    bottom: 72px;
+  }
+  .kerala_package_box .heading_text.text3 {
+    left: -55px;
+    bottom: 70px;
+  }
+  .kerala_package_box .heading_text.text4 {
+    left: -65px;
+    bottom: 80px;
+  }
+  .kerala_package_box .heading_text.text5 {
+    left: -24px;
+    bottom: 40px;
+  }
+  .kerala_package_box .heading_text.text6 {
+    left: -50px;
+    bottom: 66px;
+  }
+  .kerala_package_box .box {
+    height: 280px;
+  }
+  .kerala_package_area .mt-5{margin-top: 20px !important;}
+  .kerala_package_area .btn-view {
+    font-size: 15px;
+    padding: 15px 24px;
+  }
+  .enquery_about_area .enquery_body h3 {
+    top: -22px;
+    font-size: 36px;
+  }
+  .enquery_about_area {
+    padding: 80px 0px 0;
+  }
+  .explore_area {
+    height: 494px;
+  }
+  .explore_area .explore_box h3 {
+    font-size: 64px;
+    line-height: 85px;
+  }
+  .explore_area .explore_box {
+    padding-top: 120px;
+  }
+  .main_area {
+    position: relative;
+    padding: 40px 0px;
+  }
+  .india_package_one {
+    height: 230px;
+  }
+  .india_package_one .box, .india_package_two .box, .india_package_three .box, .india_package_four .box {
+    padding: 15px;
+  }
+  .india_package_two {
+    height: 230px;
+  }
+  .india_package_three {
+    height: 476px;
+  }
+  .india_package_four {
+    height: 230px;
+  }
+  .package_area h5.heading {
+    font-size: 95px;
+    top: -35px;
+  }
+  .india_packages {
+    margin-bottom: 35px;
+  }
+  .package_area .heading_area h3 {
+    margin: 0 0 2px;
+    font-size: 36px;
+  }
+  .package_carousel .owl-nav {
+    margin-top: 30px;
+  }
+  .testimonial_area .heading_area {
+    padding: 15px 0px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+  }
+  .testimonial_box .box {
+    padding: 90px 30px 50px;
+  }
+  .testimonial_area .testimonial_bg {
+    height: 350px;
+    padding-top: 30px;
+  }
+  .testimonial_area {
+    padding: 50px 0px 0px;
+  }
+  .testimonial_area .testimonial_bg h5 {
+    font-size: 120px;
+  }
+  .testimonial_box .box p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .footer .footer_logo {
+    max-width: 110px;
+    margin-bottom: 15px;
+  }
+  .footer .copyright {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .footer h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  .footer ul li a {
+    font-size: 14px;
+  }
+  .footer ul li {
+    margin: 0 0 2px;
+  }
+  .footer .address_box h4 {
+    font-size: 15px;
+  }
+  .footer .address_box p {
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .footer_area {
+    min-height: auto;
+    padding: 60px 0px;
+  }
+  .india_packages h5.heading {
+    font-size: 100px;
+  }
+  .kerala_package_area h5.heading {
+    font-size: 100px;
+    left: 65px;
+    top: -20px;
+  }
+  .selling_package_area h5.heading {
+    font-size: 100px;
+    right: 22px;
+    top: 8px;
+  }
+  .header_area.fix .my_account {
+    margin: 10px 0 0 15px;
+  }
+  .header_area.fix .nav-menu > li > a {
+    padding-bottom: 23px;
+  }
+  /*--------- home css stop -----------*/
+
+  /*-------- about css start ---------*/
+  .subbanner {
+    min-height: 200px;
+    margin-top: 74px;
+  }
+  .subbanner h1 {
+    font-size: 40px;
+  }
+  .subbanner .breadcrumb {
+    padding: 0px 0px;
+    font-size: 15px;
+  }
+  .breadcrumb-item + .breadcrumb-item::before {
+    font-size: 12px;
+  }
+  .aboutus {
+    padding: 40px 0px;
+  }
+  .abtxt {
+    margin-top: 50px;
+  }
+  .abtxt .head h2 {
+    font-size: 90px;
+  }
+  .abtxt .head h3 {
+    font-size: 38px;
+  }
+  .abtxt .head {
+    margin-bottom: 20px;
+  }
+  .abtxt p {
+    line-height: 24px;
+    font-size: 14px;
+  }
+  .aboutarea.mt-5{
+    margin-top: 0 !important;
+  }
+  /*-------- about css stop ---------*/
+
+}
+
+@media (max-width: 991px) {
+	
+/*-------- home css start --------*/
+    .header_area .nav-menu > li > a{padding: 15px 15px;} 
+    .header_area.fix .my_account{top: 23px;}
+.header_area .logo {
+  max-width: 140px;
+}
+.nav-toggle {
+  top: 78%;
+}
+.header_area.fix .nav-toggle{
+  top: 95%;
+}
+.bannner_contain_area{order: 2;}
+.banner_image_area{order: 1;}
+.banner_area {
+  height: auto;
+}
+.banner_img_1 {
+  height: 190px;
+  margin-top: 0px;
+}
+.banner_img_2 {
+  height: 155px;
+}
+.banner_img_5 {
+  height: 155px;
+}
+.banner_img_3 {
+  height: 110px;
+}
+.banner_img_4 {
+  height: 235px;
+}
+.banner_area .banner_contain {
+  padding-top: 20px;
+}
+.search_body {
+  max-width: 100%;
+  margin: 15px 0 0;
+}
+.banner_area .banner_contain h1 {
+  font-size: 36px;
+  line-height: 40px;
+}
+.banner_area .banner_contain p {
+  font-size: 18px;
+}
+.search_body {
+  padding: 20px 20px 20px;
+  background-color: #fff;
+}
+.search_body .d-flex{
+  display: block!important;
+}
+.search_body .form-group {
+  max-width: 49%;
+  display: inline-block;
+}
+.search_body .form-group label {
+  font-size: 16px;
+}
+.form-control {
+  font-size: 15px;
+}
+.selling_package_area .heading_area h3, .kerala_package_area .heading_area h3, .india_packages .heading_area h3 {
+  font-size: 30px;
+}
+.selling_package_box .img_box {
+  height: 230px;
+}
+.selling_package_box h4 {
+  font-size: 20px;
+}
+.hot_selling_carousel .owl-nav {
+  bottom: 190px;
+}
+.hot_selling_carousel .owl-nav .owl-prev {
+  left: -25px;
+  background: #fff !important;
+}
+.hot_selling_carousel .owl-nav .owl-next {
+  right: -25px;
+  background: #fff !important;
+}
+.kerala_package_box .heading_text {
+  font-size: 15px;
+}
+.kerala_package_box {
+  padding-left: 24px;
+  margin-bottom: 20px;
+}
+.kerala_package_box .heading_text.text1 {
+  left: -45px;
+  bottom: 50px;
+}
+.kerala_package_box .heading_text.text2 {
+  left: -51px;
+  bottom: 54px;
+}
+.kerala_package_box .heading_text.text3 {
+  left: -47px;
+  bottom: 52px;
+}
+.kerala_package_box .heading_text.text4 {
+  left: -55px;
+  bottom: 59px;
+}
+.kerala_package_box .heading_text.text5 {
+  left: -24px;
+  bottom: 28px;
+}
+.kerala_package_box .heading_text.text6 {
+  left: -44px;
+  bottom: 48px;
+}
+.kerala_package_box .box {
+  height: 240px;
+}
+.kerala_package_box .box .contain_box .box_two {
+  top: 10px;
+  right: 0px;
+  font-size: 16px;
+  line-height: 16px;
+}
+.kerala_package_area .btn-view {
+  font-size: 15px;
+  padding: 10px 12px;
+}
+.enquery_about_area .enquery_body h3 {
+  top: -16px;
+  font-size: 26px;
+}
+.enquery_about_area .enquery_body ul.enquery_list li {
+  margin-right: 60px;
+}
+.enquery_about_area .enquery_body ul.enquery_list li .enquery .img_box {
+  width: 65px;
+}
+.enquery_about_area .enquery_body {
+  min-height: auto;
+  padding: 40px;
+}
+.enquery_about_area .enquery_body ul.enquery_list li .enquery p {
+  font-size: 16px;
+}
+.explore_area {
+  height: 382px;
+}
+.explore_area .explore_box h3 {
+  font-size: 42px;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+.india_package_one {
+  height: 170px;
+}
+.india_package_two {
+  height: 170px;
+}
+.india_package_three {
+  height: 356px;
+}
+.india_package_four {
+  height: 170px;
+}
+.india_package_one .box, .india_package_two .box, .india_package_three .box, .india_package_four .box {
+  padding: 10px;
+}
+.india_package_one .box h3 {
+  margin: 0 0 2px;
+  font-size: 20px;
+}
+.india_package_two .box h3 {
+  margin: 0 0 2px;
+  font-size: 18px;
+}
+.india_package_one .box h4 {
+  font-size: 14px;
+}
+.india_package_one .box p {
+  font-size: 12px;
+}
+.india_package_two .box h4 {
+  font-size: 12px;
+}
+.india_package_two .box p {
+  font-size: 11px;
+}
+.india_package_three .box h3 {
+  margin: 0 0 2px;
+  font-size: 20px;
+}
+.india_package_three .box h4 {
+  font-size: 13px;
+}
+.india_package_three .box p {
+  font-size: 12px;
+}
+.india_package_four .box h3 {
+  margin: 0 0 2px;
+  font-size: 20px;
+}
+.india_package_four .box h4 {
+  font-size: 14px;
+}
+.india_package_four .box p {
+  font-size: 12px;
+}
+.kerala_package_box .box .contain_box {
+  padding: 15px;
+}
+.kerala_package_box .box .contain_box h3 {
+  margin: 0 0 4px;
+}
+.package_box .img_box {
+  height: 290px;
+}
+.package_box .img_box .img_contain {
+  padding: 15px;
+}
+.package_box .img_box .img_contain h3 {
+  font-size: 20px;
+}
+.testimonial_area .heading_area {
+  padding: 0px 0px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.testimonial_area .heading_area h3 {
+  font-size: 36px;
+}
+.testimonial_box .box .img_box {
+  width: 105px;
+  height: 105px;
+}
+.testimonial_box .box {
+  padding: 60px 20px 20px;
+}
+.testimonial_box .box h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+.testimonial_box .box p {
+  font-size: 13px;
+  line-height: 22px;
+  padding-left: 23px;
+}
+.testimonial_box .box p::before {
+  width: 15px;
+  height: 11px;
+}
+.testimonial_box .box p img {
+  width: 16px;
+}
+.testimonial_box .comment_for {
+  padding: 20px 0px 0 0;
+}
+.testimonial_box .comment_for h5 {
+  font-size: 15px;
+}
+.testimonial_carousel .owl-dots {
+  padding-top: 10px;
+}
+.footer .footer_logo {
+  max-width: 80px;
+  margin-bottom: 10px;
+}
+.footer .copyright {
+  font-size: 10px;
+  line-height: 17px;
+}
+.footer h3 {
+  font-size: 17px;
+  margin: 0 0 8px;
+}
+.footer ul li a {
+  font-size: 13px;
+}
+.footer .address_box h4 {
+  font-size: 14px;
+}
+.footer .address_box p {
+  font-size: 12px;
+  line-height: 18px;
+}
+.footer_area {
+  padding: 35px 0px;
+}
+.footer_area ul.footer_social_link {
+  margin: 10px auto 0;
+}
+.my_account {
+  width: 93% !important;
+}
+.chat {
+  overflow: hidden;
+  width: 100px;
+}
+.testimonial_area{
+  overflow: hidden;
+}
+.testimonial_area .testimonial_bg h5 {
+  font-size: 90px;
+}
+    
+    .kerala_package_area .heading_area{text-align: left;padding: 10px 10px 10px 25px;}  
+    .kerala_package_area .heading_area::before{left: 0;}
+    .my_account {top: 28px;}
+    .contform{order: 2;}
+    .contadd{order: 1;}
+/*-------- home css stop --------*/
+.package_description {margin-top: 10px;}   
+.contactarea .col-lg-5, .contactarea .col-lg-7 {-ms-flex: 100%;flex: 100%;max-width: 100%;} 
+    .contactimg{margin: 0px auto 25px;text-align: center;}    
+	.visas{ display:none;}
+	.visasnav{width: 90% !important;
+display: inline-block;
+position: relative;font-size: 20px;left: 16px;
+text-align: center;padding: 10px 10px !important;}
+.header_area .navigation{right: 15px;}
+.filterin{ display:none;}
+.listing_box .media .img_box {width: 190px;height: 275px;}
+#main{ display:block;margin-bottom: 30px;}
+.filter_box::after{ display:none;}
+.listing_area h4{ display:block;font-size: 40px;}
+}
+
+@media (max-width: 767.98px) {
+  
+/*-------- home css start --------*/
+.banner_area .banner_contain h1 {
+  font-size: 28px;
+  line-height: 30px;
+}
+.banner_area .banner_contain p {
+  font-size: 16px;
+}
+.selling_package_area .heading_area h3, .kerala_package_area .heading_area h3, .india_packages .heading_area h3 {
+  font-size: 26px;
+}
+.selling_package_area .heading_area p {
+  font-size: 14px;
+}
+.hot_selling_carousel .owl-item:nth-of-type(2n) .selling_package_box {
+  margin-top: 15px;
+}
+.selling_package_box .img_box {
+  height: 190px;
+  margin-bottom: 10px;
+}
+.selling_package_box h4 {
+  font-size: 16px;
+}
+.selling_package_box p {
+  font-size: 14px;
+}
+.selling_package_box h5 {
+  font-size: 12px;
+}
+.kerala_package_box .box {
+  height: 230px;
+}
+.enquery_about_area .enquery_body h3 {
+  top: -15px;
+  font-size: 24px;
+  width: 40%;
+}
+.enquery_about_area .enquery_body ul.enquery_list li {
+  margin-right: 25px;
+}
+.enquery_about_area .enquery_body ul.enquery_list li .enquery p {
+  font-size: 14px;
+}
+.explore_area .explore_box h3 {
+  font-size: 35px;
+  line-height: 48px;
+  margin-bottom: 15px;
+}
+.btn {
+  font-size: 15px;
+  padding: 8px 12px;
+}
+.india_package_one {
+  height: 250px;
+}
+.india_package_one .box h3 {
+  font-size: 18px;
+}
+.india_package_one .box h4 {
+  font-size: 13px;
+}
+.india_package_one .box p {
+  font-size: 11px;
+}
+.india_package_two {
+  height: 155px;
+}
+.india_package_two .box h3 {
+  font-size: 16px;
+}
+.india_package_three {
+  height: 300px;
+}
+.india_package_three .box h3 {
+  font-size: 16px;
+}
+.india_package_four {
+  height: 250px;
+}
+.india_package_four .box h3 {
+  font-size: 18px;
+}
+.india_package_four .box h4 {
+  font-size: 12px;
+}
+.india_package_four .box p {
+  font-size: 11px;
+}
+.package_area .heading_area h3 {
+  font-size: 30px;
+}
+.package_box .img_box {
+  height: 220px;
+}
+.package_box .img_box .img_contain h3 {
+  font-size: 18px;
+}
+.footer_sape {
+  min-height: auto;
+}
+.footer_sape::after {
+  display: none;
+}
+.testimonial_area .testimonial_bg h5 {
+  font-size: 70px;
+}
+
+.main_area {
+  overflow: hidden;
+}
+ 
+    .india_packages h5.heading, .package_area h5.heading {font-size: 85px;}
+    .selling_package_area h5.heading{font-size: 85px;right: 70px;}
+    .kerala_package_area h5.heading{ font-size: 85px;left: 15px;}
+    .testimonial_area .heading_area{text-align: left;}
+    .testimonial_area .heading_area{border-left: 8px solid #009cc5;border-right: 0px solid #009cc5;padding-left: 20px;}
+/*-------- home css stop --------*/
+    .about-img{order: 1;}  
+    .about-cont{order: 2;}
+    #sync1 .item{height: 300px;}
+    #sync2 .item{height: 90px}
+    .package_details_area{ padding: 40px 0px;}
+    .listing_area .media{ display: block;}
+    .listing_box .media .img_box { width: 100%;height: 300px;margin: 0px 0px 15px 0px;}
+    .listing_box .pacakge_price{min-height: auto; margin-top: 25px;}
+    .listing_box{background: #fbfbfb;border: 1px solid #fbfbfb;box-shadow: 0px 0px 10px 0px #ece8e8;border-radius: 10px;;padding-bottom: 30px;height: initial;}
+    .listing_box .media::after{width: 0px;}
+    .listing_box .media-body{padding: 0px 20px;}
+	.search_body .form-control{border: 1px solid #dfdfdf;border-radius: 3px;}
+}
+@media (max-width: 639.98px) {
+
+/*-------- home css start --------*/
+.header_area .logo {
+  max-width: 90px;
+  padding: 10px 0px;
+}
+.nav-toggle {
+  top: 55%;
+}
+.selling_package_box .img_box {
+  height: 250px;
+}
+.enquery_about_area .enquery_body h3 {
+  font-size: 24px;
+  width: 50%;
+}
+.enquery_about_area .enquery_body {
+  padding: 30px;
+}
+.kerala_package_area .btn-view {
+  font-size: 15px;
+  padding: 10px 12px;
+  line-height: 50px;
+}
+.enquery_about_area {
+  padding: 45px 0px 0;
+}
+.explore_area {
+  height: 260px;
+}
+.explore_area .explore_box h3 {
+  font-size: 27px;
+  line-height: 35px;
+}
+.btn {
+  font-size: 13px;
+  padding: 6px 10px;
+}
+.explore_area .explore_box {
+  padding-top: 90px;
+}
+.india_package_one {
+  height: 200px;
+}
+.india_package_one .box h3 {
+  font-size: 16px;
+}
+.india_package_one .box h4 {
+  font-size: 12px;
+}
+.india_package_one .box p {
+  font-size: 10px;
+}
+.india_package_two {
+  height: 140px;
+}
+.india_package_two .box h3 {
+  font-size: 15px;
+}
+.india_package_two .box h4 {
+  font-size: 10px;
+}
+.india_package_two .box p {
+  font-size: 10px;
+}
+.india_package_three {
+  height: 250px;
+}
+.india_package_three .box h3 {
+  font-size: 15px;
+}
+.india_package_three .box h4 {
+  font-size: 12px;
+}
+.india_package_three .box p {
+  font-size: 10px;
+}
+.india_package_four {
+  height: 200px;
+}
+.india_package_four .box h3 {
+  font-size: 16px;
+}
+.package_area .heading_area {
+  margin-bottom: 20px;
+}
+.footer_area {
+  padding: 35px 0px 15px;
+  background: #146ba30d;
+border-top: 1px solid #0b85b4;
+margin-top: 40px;    
+}
+.chat {
+  width: 90px;
+}
+.my_account {top: 15px;padding: 6px 10px !important;}    
+    .selling_package_area h5.heading{font-size: 65px;}
+ .kerala_package_area h5.heading, .india_packages h5.heading, .package_area h5.heading {font-size: 70px;}   
+  .subbanner { min-height: 170px;margin-top: 50px;}  
+    .subbanner h1 {font-size: 30px;}
+.abtxt .head h2 {font-size: 70px;}  
+    .details_right {
+    padding: 20px 0;
+}
+    
+/*-------- home css stop --------*/
+.contact_area {
+    padding: 40px 0px 0px;
+}    
+    .package_description .nav-tabs .nav-link{padding: 6px 7px;} 
+    .contactarea {padding: 40px 0px;}
+    .contactimg{ display: none;}
+    .listing_box .media .img_box{height: 260px;}
+	#main #faq .card .card-header .btn{padding: 10px 10px; font-size:15px;}
+	#main {margin-bottom: 20px;}
+	.listing_area {padding: 40px 0px;}
+	.filter_box .search_box{ padding:15px;}
+	.filter_box .search_box .btn-search{bottom: 22px;right: 30px;}
+	.listing_area h3{ font-size:35px;}
+}
+
+
+
+
+@media (max-width: 479.98px) {
+
+/*-------- home css start --------*/
+.selling_package_box .img_box {
+  height: 210px;
+}
+.banner_area .banner_image {
+  padding-top: 0px;
+}
+.kerala_package_box .box {
+  height: 170px;
+}
+.enquery_about_area .enquery_body ul.enquery_list li {
+  margin-right: 10px;
+}
+.enquery_about_area .enquery_body ul.enquery_list li .enquery .img_box {
+  width: 50px;
+}
+.explore_area {
+  height: 225px;
+}
+.explore_area .explore_box h3 {
+  font-size: 23px;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+.explore_area .explore_box {
+  padding-top: 55px;
+}
+.india_package_one .box, .india_package_two .box, .india_package_three .box, .india_package_four .box {
+  padding: 6px;
+}
+.india_package_one {
+  height: 180px;
+}
+.india_package_two {
+  height: 125px;
+}
+.india_package_three {
+  height: 200px;
+}
+.india_package_four {
+  height: 180px;
+}
+.india_package_four .box h3 {
+  font-size: 14px;
+}
+.india_packages {
+  margin-bottom: 20px;
+}
+.package_area .heading_area h3 {
+  font-size: 25px;
+}
+.banner_img_1 {
+  height: 250px;margin-top: 0px;
+}
+.banner_img_2 {
+  height: 125px;
+}
+.banner_img_3 {
+  height: 85px;
+}
+.banner_img_4 {
+  height: 200px;
+}
+.banner_img_5 {
+  height: 100px;
+}
+.enquery_about_area .enquery_body h3 {
+  font-size: 22px;
+}
+    .search_area .form-control{ height: 40px;} 
+    .search_area .form-group { margin-bottom: 15px;}
+    .search_body .btn-search{padding: 0px 18px;height: 40px;float: right;border-radius: 10px 10px 10px 10px;}
+    .kerala_package_area h5.heading, .india_packages h5.heading, .package_area h5.heading {font-size: 55px;}
+    .selling_package_area h5.heading {font-size: 50px;}
+    .subbanner .breadcrumb {font-size: 12px;}
+    .subbanner{min-height: 155px;}
+    .subbanner h1 {font-size: 27px;}
+    .abtxt .head h2 {font-size: 55px;}
+    .abtxt .head h3 {font-size: 30px;}
+    .contact_formbox{ padding: 25px;}
+    .contact_rightboxinner{padding: 40px;}
+    #sync1 .item {height: 200px;}
+    #sync2 .item {height: 60px;}
+    .details_right .heading{ font-size: 25px;}
+    .package_description .d-flex{display: -ms-block !important;display: block !important;}
+    .listing_box .media .img_box{height: 250px;}
+    .filter_box .search_box{ padding: 20px;}
+    .filter_box .search_box .btn-search{bottom: 27px;right: 35px;}
+    .search_body .form-group .icon{ bottom: 10px;}
+	
+	
+	.banright{ display:none;}
+	.banleft{-ms-flex: 100%;flex: 100%;max-width: 100%;}
+	.banleft .offset-2{ margin-left:0px !important;-ms-flex: 100%;flex: 100%;max-width: 100%;}
+	.form-control{padding-right: 0px;}
+	.listing_area h3{ font-size:35px;}
+/*-------- home css stop --------*/
+
+}
+
+@media (max-width: 410px) {
+
+/*-------- home css start --------*/
+.selling_package_area .heading_area h3, .kerala_package_area .heading_area h3, .india_packages .heading_area h3 {
+  font-size: 24px;
+}
+.enquery_about_area .enquery_body h3 {
+  font-size: 20px;
+  top: -13px;
+}
+.package_area .heading_area h3 {
+  font-size: 22px;
+}
+.testimonial_area .heading_area h3 {
+  font-size: 25px;
+}
+    .subbanner h1 {
+    font-size: 23px;
+}
+    .package_description .nav-tabs .nav-link {
+    padding: 4px 6px;font-size: 11px;
+}
+    #sync2 .item {
+    height: 50px;
+}
+    .listing_box .media .img_box{height: 210px;}
+    .kerala_package_area h5.heading, .india_packages h5.heading, .package_area h5.heading{font-size: 45px;left: 35px;}
+    .banner_area .banner_contain h1{font-size: 25px;}  
+    .selling_package_area h5.heading {font-size: 40px; left: 50px;}
+/*-------- home css stop --------*/
+
+}

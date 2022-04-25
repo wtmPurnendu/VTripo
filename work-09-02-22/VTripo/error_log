@@ -1,0 +1,20 @@
+[19-Jan-2022 10:39:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home3/webtezpn/public_html/VTripo/wp-content/plugins/optinmonster/OMAPI/Actions.php:203
+Stack trace:
+#0 /home3/webtezpn/public_html/VTripo/wp-includes/class-wp-hook.php(303): OMAPI_Actions->check_upgrade_routines('')
+#1 /home3/webtezpn/public_html/VTripo/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home3/webtezpn/public_html/VTripo/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home3/webtezpn/public_html/VTripo/wp-content/plugins/optinmonster/optin-monster-wp-api.php(429): do_action('optin_monster_a...')
+#4 /home3/webtezpn/public_html/VTripo/wp-content/plugins/optinmonster/optin-monster-wp-api.php(354): OMAPI->load_global()
+#5 /home3/webtezpn/public_html/VTripo/wp-includes/class-wp-hook.php(303): OMAPI->init('')
+#6 /home3/webtezpn/public_html/VTripo/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home3/webtezpn/public_html/VTripo/wp-includes/plugin.php(470): WP_Hook->do_action(Ar in /home3/webtezpn/public_html/VTripo/wp-content/plugins/optinmonster/OMAPI/Actions.php on line 203
+[19-Jan-2022 10:42:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home3/webtezpn/public_html/VTripo/wp-content/plugins/optinmonster/OMAPI/Actions.php:203
+Stack trace:
+#0 /home3/webtezpn/public_html/VTripo/wp-includes/class-wp-hook.php(303): OMAPI_Actions->check_upgrade_routines('')
+#1 /home3/webtezpn/public_html/VTripo/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home3/webtezpn/public_html/VTripo/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home3/webtezpn/public_html/VTripo/wp-content/plugins/optinmonster/optin-monster-wp-api.php(429): do_action('optin_monster_a...')
+#4 /home3/webtezpn/public_html/VTripo/wp-content/plugins/optinmonster/optin-monster-wp-api.php(354): OMAPI->load_global()
+#5 /home3/webtezpn/public_html/VTripo/wp-includes/class-wp-hook.php(303): OMAPI->init('')
+#6 /home3/webtezpn/public_html/VTripo/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home3/webtezpn/public_html/VTripo/wp-includes/plugin.php(470): WP_Hook->do_action(Ar in /home3/webtezpn/public_html/VTripo/wp-content/plugins/optinmonster/OMAPI/Actions.php on line 203
